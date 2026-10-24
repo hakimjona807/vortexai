@@ -1,0 +1,470 @@
+{
+  "medicines": [
+    {
+      "id": "med-001",
+      "name": "Paratsetamol",
+      "dosage_form": "500 mg tabletka",
+      "package_type": "10 dona blister",
+      "stock_quantity": 120,
+      "is_available": true,
+      "price": 3500,
+      "category": "Og‘riq qoldiruvchi va isitma tushiruvchi",
+      "manufacturer": "Nobel Pharmsanoat",
+      "requires_prescription": false,
+      "description": "Bosh va tish og‘rig‘i, shamollashdagi yuqori tana haroratida qo‘llaniladi.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-002",
+      "name": "Tsitramon P",
+      "dosage_form": "Tabletka",
+      "package_type": "10 dona qog‘oz qadoq",
+      "stock_quantity": 250,
+      "is_available": true,
+      "price": 2500,
+      "category": "Og‘riq qoldiruvchi",
+      "manufacturer": "Jurabek Laboratories",
+      "requires_prescription": false,
+      "description": "Bosh og‘rig‘i va nevralgiyada yordam beradi.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-003",
+      "name": "Spazmalgon",
+      "dosage_form": "500 mg tabletka",
+      "package_type": "20 dona qadoq",
+      "stock_quantity": 65,
+      "is_available": true,
+      "price": 28000,
+      "category": "Spazmolitik va og‘riq qoldiruvchi",
+      "manufacturer": "Sopharma",
+      "requires_prescription": false,
+      "description": "Ichki a’zolar silliq mushaklari spazmida qo‘llaniladi.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-004",
+      "name": "Nimesil",
+      "dosage_form": "100 mg granulalar / sashe",
+      "package_type": "30 dona paketcha",
+      "stock_quantity": 80,
+      "is_available": true,
+      "price": 135000,
+      "category": "Yallig‘lanishga qarshi",
+      "manufacturer": "Menarini Group",
+      "requires_prescription": true,
+      "description": "O‘tkir og‘riqlar, bo‘g‘im yallig‘lanishida.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-005",
+      "name": "Mezim Forte",
+      "dosage_form": "10 000 TB draje",
+      "package_type": "20 dona blister",
+      "stock_quantity": 45,
+      "is_available": true,
+      "price": 42000,
+      "category": "Ovqat hazm qilish fermentlari",
+      "manufacturer": "Berlin-Chemie",
+      "requires_prescription": false,
+      "description": "Hazm qilish jarayonini yaxshilash uchun ferment vositasi.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-006",
+      "name": "Aspirin Kardio",
+      "dosage_form": "100 mg tabletka",
+      "package_type": "28 dona qadoq",
+      "stock_quantity": 90,
+      "is_available": true,
+      "price": 36000,
+      "category": "Yurak-qon tomir / Antitrombotsitar",
+      "manufacturer": "Bayer",
+      "requires_prescription": false,
+      "description": "Qon quyilishining oldini oluvchi vosita.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-007",
+      "name": "Mukaltin",
+      "dosage_form": "50 mg tabletka",
+      "package_type": "10 dona blister",
+      "stock_quantity": 180,
+      "is_available": true,
+      "price": 3000,
+      "category": "Balag‘am ko‘chiruvchi",
+      "manufacturer": "Galenika",
+      "requires_prescription": false,
+      "description": "Quruq va balag‘amli yo‘talda balag‘am ajralishini yengillashtiradi.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-008",
+      "name": "Suprastin",
+      "dosage_form": "25 mg tabletka",
+      "package_type": "20 dona qadoq",
+      "stock_quantity": 40,
+      "is_available": true,
+      "price": 39000,
+      "category": "Allergiyaga qarshi",
+      "manufacturer": "Egis",
+      "requires_prescription": false,
+      "description": "Allergik reaksiyalar, qichishish va toshmalarda qo‘llaniladi.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-009",
+      "name": "Analgin",
+      "dosage_form": "500 mg tabletka",
+      "package_type": "10 dona blister",
+      "stock_quantity": 0,
+      "is_available": false,
+      "price": 3000,
+      "category": "Og‘riq qoldiruvchi",
+      "manufacturer": "Uzpharmsanoat",
+      "requires_prescription": false,
+      "description": "Kuchli og‘riq va isitma holatlarida.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "med-010",
+      "name": "Aflubin",
+      "dosage_form": "20 ml tomchi",
+      "package_type": "Flakon",
+      "stock_quantity": 15,
+      "is_available": true,
+      "price": null,
+      "category": "Gomeopatik shamollashga qarshi",
+      "manufacturer": "Richard Bittner",
+      "requires_prescription": false,
+      "description": "Gripp va O‘RVI profilaktikasi hamda davolash.",
+      "created_at": "2026-01-01T00:00:00.000Z",
+      "updated_at": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "inquiries": [],
+  "orders": [
+    {
+      "id": "ord-6404a9fc",
+      "order_number": "VTX-2026-1002",
+      "customer_phone": "+998 90 111 22 33",
+      "delivery_address": "Test manzili",
+      "confirmed_by_customer": true,
+      "olimboy_confirmed": false,
+      "status": "pending_confirmation",
+      "total_amount": 3500,
+      "items": [
+        {
+          "id": "item-ord-6404a9fc-1",
+          "order_id": "ord-6404a9fc",
+          "medicine_name": "Paratsetamol",
+          "quantity": 1,
+          "unit_price": 3500,
+          "subtotal": 3500
+        }
+      ],
+      "created_at": "2026-10-23T16:57:55.460Z",
+      "updated_at": "2026-10-23T16:57:55.460Z"
+    },
+    {
+      "id": "ord-31dfeab5",
+      "order_number": "TEST-001",
+      "customer_phone": "+998 90 123 45 67",
+      "delivery_address": "Toshkent sh., Yunusobod 14, 25-uy",
+      "additional_notes": "Doimiy saqlash va qayta yuklash sinovi (TEST-001)",
+      "confirmed_by_customer": true,
+      "olimboy_confirmed": true,
+      "status": "confirmed",
+      "total_amount": 9500,
+      "items": [
+        {
+          "id": "item-ord-31dfeab5-1",
+          "order_id": "ord-31dfeab5",
+          "medicine_id": "med-001",
+          "medicine_name": "Paratsetamol 500mg",
+          "quantity": 2,
+          "unit_price": 3500,
+          "subtotal": 7000
+        },
+        {
+          "id": "item-ord-31dfeab5-2",
+          "order_id": "ord-31dfeab5",
+          "medicine_id": "med-002",
+          "medicine_name": "Tsitramon P",
+          "quantity": 1,
+          "unit_price": 2500,
+          "subtotal": 2500
+        }
+      ],
+      "created_at": "2026-10-23T16:57:37.705Z",
+      "updated_at": "2026-10-23T16:57:37.706Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-d1434428",
+      "phone_number": "+998 90 123 45 67",
+      "default_address": "Toshkent sh., Yunusobod 14, 25-uy",
+      "consent_to_call": true,
+      "consent_recorded_at": "2026-10-23T16:57:37.705Z",
+      "total_orders": 1,
+      "created_at": "2026-10-23T16:57:37.705Z",
+      "updated_at": "2026-10-23T16:57:37.705Z"
+    },
+    {
+      "id": "cust-02c11459",
+      "phone_number": "+998 90 111 22 33",
+      "default_address": "Test manzili",
+      "consent_to_call": true,
+      "consent_recorded_at": "2026-10-23T16:57:55.461Z",
+      "total_orders": 1,
+      "created_at": "2026-10-23T16:57:55.461Z",
+      "updated_at": "2026-10-23T16:57:55.461Z"
+    }
+  ],
+  "status_history": [
+    {
+      "order_id": "ord-6404a9fc",
+      "old_status": null,
+      "new_status": "pending_confirmation",
+      "changed_by": "system_voice_ai",
+      "change_reason": "Mijoz ovoz orqali buyurtmani tasdiqladi (Olimboy tasdig‘i kutilmoqda)",
+      "id": "hist-53f98a7b",
+      "timestamp": "2026-10-23T16:57:55.460Z"
+    },
+    {
+      "order_id": "ord-31dfeab5",
+      "old_status": "pending_confirmation",
+      "new_status": "confirmed",
+      "changed_by": "olimboy_admin",
+      "change_reason": "Sinov: Olimboy tasdiqladi",
+      "id": "hist-dcbe6576",
+      "timestamp": "2026-10-23T16:57:37.706Z"
+    },
+    {
+      "order_id": "ord-31dfeab5",
+      "old_status": null,
+      "new_status": "pending_confirmation",
+      "changed_by": "system_voice_ai",
+      "change_reason": "Mijoz ovoz orqali buyurtmani tasdiqladi (Olimboy tasdig‘i kutilmoqda)",
+      "id": "hist-63c14490",
+      "timestamp": "2026-10-23T16:57:37.705Z"
+    }
+  ],
+  "call_sessions": [
+    {
+      "id": "call-c4a1952a",
+      "call_sid": "sid_1792774211551_830",
+      "caller_phone": "+998 777775656",
+      "dialed_number": "+998 71 200 11 22",
+      "direction": "inbound",
+      "start_time": "2026-10-23T16:50:11.551Z",
+      "duration_seconds": 229,
+      "status": "dropped",
+      "transcript": [
+        {
+          "speaker": "vortex_ai",
+          "text": "Assalomu alaykum! VORTEX AI dorixona buyurtmalarini qabul qilish xizmatiga xush kelibsiz. Sizga qanday dorilar kerak?",
+          "intent": "greeting",
+          "id": "turn-9ff725c5",
+          "timestamp": "2026-10-23T16:50:11.551Z"
+        },
+        {
+          "speaker": "customer",
+          "text": "Menga 2 qadoq Paratsetamol va 1 qadoq Tsitramon kerak",
+          "id": "turn-f72f21cc",
+          "timestamp": "2026-10-23T16:50:34.324Z"
+        },
+        {
+          "speaker": "vortex_ai",
+          "text": "Kechirasiz, tizimda qisqa uzilish yuz berdi. Dori buyurtmangiz xavfsiz saqlanmoqda, Olimboy tez orada siz bilan bog‘lanadi.",
+          "intent": "system_error_handled",
+          "id": "turn-b5f789c8",
+          "timestamp": "2026-10-23T16:50:35.930Z"
+        }
+      ],
+      "inquiry_ids": [],
+      "current_step": "greeting",
+      "draft_data": {
+        "medicines": [],
+        "callback_consent": true
+      },
+      "termination_reason": "hangup_abrupt",
+      "end_time": "2026-10-23T16:54:00.615Z"
+    },
+    {
+      "id": "call-feb45899",
+      "call_sid": "sid_1792774202893_305",
+      "caller_phone": "+998 777775656",
+      "dialed_number": "+998 71 200 11 22",
+      "direction": "inbound",
+      "start_time": "2026-10-23T16:50:02.893Z",
+      "duration_seconds": 7,
+      "status": "dropped",
+      "transcript": [
+        {
+          "speaker": "vortex_ai",
+          "text": "Assalomu alaykum! VORTEX AI dorixona buyurtmalarini qabul qilish xizmatiga xush kelibsiz. Sizga qanday dorilar kerak?",
+          "intent": "greeting",
+          "id": "turn-5769a360",
+          "timestamp": "2026-10-23T16:50:02.895Z"
+        }
+      ],
+      "inquiry_ids": [],
+      "current_step": "greeting",
+      "draft_data": {
+        "medicines": [],
+        "callback_consent": true
+      },
+      "termination_reason": "hangup_abrupt",
+      "end_time": "2026-10-23T16:50:09.616Z"
+    }
+  ],
+  "callback_jobs": [
+    {
+      "customer_phone": "+998 777775656",
+      "reason": "incomplete_call_followup",
+      "max_retries": 3,
+      "scheduled_at": "2026-10-23T16:59:00.616Z",
+      "payload": {
+        "session_id": "call-c4a1952a",
+        "attempted_medicines": []
+      },
+      "id": "cb-b9dcc1ae",
+      "retry_count": 0,
+      "status": "scheduled"
+    },
+    {
+      "customer_phone": "+998 777775656",
+      "reason": "incomplete_call_followup",
+      "max_retries": 3,
+      "scheduled_at": "2026-10-23T16:55:09.617Z",
+      "payload": {
+        "session_id": "call-feb45899",
+        "attempted_medicines": []
+      },
+      "id": "cb-f4a3403e",
+      "retry_count": 0,
+      "status": "scheduled"
+    }
+  ],
+  "notification_logs": [
+    {
+      "recipient_type": "olimboy",
+      "channel": "sms",
+      "provider": "disconnected_mock",
+      "status": "simulated_queued",
+      "recipient": "+998 90 123 45 67",
+      "message": "[VORTEX AI OGOHLANTIRISH]: Qo‘ng‘iroq to‘satdan uzildi! Raqam: +998 777775656. Holati: Tugallanmagan (incomplete). Qayta qo‘ng‘iroq rejalashtirildi.",
+      "id": "notif-b1d14519",
+      "sent_at": "2026-10-23T16:54:00.616Z"
+    },
+    {
+      "recipient_type": "olimboy",
+      "channel": "sms",
+      "provider": "disconnected_mock",
+      "status": "simulated_queued",
+      "recipient": "+998 90 123 45 67",
+      "message": "[VORTEX AI OGOHLANTIRISH]: Qo‘ng‘iroq to‘satdan uzildi! Raqam: +998 777775656. Holati: Tugallanmagan (incomplete). Qayta qo‘ng‘iroq rejalashtirildi.",
+      "id": "notif-b28cb314",
+      "sent_at": "2026-10-23T16:50:09.617Z"
+    }
+  ],
+  "settings": {
+    "id": "settings-default",
+    "pharmacy_name": "VORTEX AI Dorixona Xizmati (Olimboy boshqaruvi)",
+    "dedicated_phone_number": "+998 71 200 11 22",
+    "business_start_time": "08:00",
+    "business_end_time": "22:00",
+    "is_24_7": false,
+    "active_telephony_provider": "voximplant_uz",
+    "telephony_provider_connected": true,
+    "olimboy_phone": "+998 90 123 45 67",
+    "olimboy_sms_notifications_enabled": true,
+    "olimboy_push_notifications_enabled": true,
+    "sms_provider": "playmobile_uz",
+    "sms_provider_connected": false,
+    "push_provider_connected": false,
+    "max_callback_retries": 3,
+    "emergency_mode": false,
+    "timezone": "Asia/Tashkent",
+    "updated_at": "2026-10-23T16:12:02.806Z"
+  },
+  "audit_logs": [
+    {
+      "actor_type": "voice_ai",
+      "actor_id": "vortex_voice_gateway",
+      "action": "ORDER_CREATED",
+      "resource": "orders/ord-6404a9fc",
+      "details": {
+        "order_number": "VTX-2026-1002",
+        "status": "pending_confirmation",
+        "items_count": 1,
+        "total_amount": 3500
+      },
+      "id": "audit-05a88eb9",
+      "timestamp": "2026-10-23T16:57:55.461Z"
+    },
+    {
+      "actor_type": "olimboy_admin",
+      "actor_id": "olimboy",
+      "action": "ORDER_STATUS_CHANGED",
+      "resource": "orders/ord-31dfeab5",
+      "details": {
+        "old_status": "pending_confirmation",
+        "new_status": "confirmed",
+        "reason": "Sinov: Olimboy tasdiqladi"
+      },
+      "id": "audit-a16a0e47",
+      "timestamp": "2026-10-23T16:57:37.707Z"
+    },
+    {
+      "actor_type": "voice_ai",
+      "actor_id": "vortex_voice_gateway",
+      "action": "ORDER_CREATED",
+      "resource": "orders/ord-31dfeab5",
+      "details": {
+        "order_number": "TEST-001",
+        "status": "pending_confirmation",
+        "items_count": 2,
+        "total_amount": 9500
+      },
+      "id": "audit-d87f5bf2",
+      "timestamp": "2026-10-23T16:57:37.706Z"
+    },
+    {
+      "actor_type": "telephony",
+      "actor_id": "sid_1792774211551_830",
+      "action": "CALL_SESSION_STARTED",
+      "resource": "call_sessions/call-c4a1952a",
+      "details": {
+        "caller": "+998 777775656",
+        "dialed": "+998 71 200 11 22"
+      },
+      "id": "audit-d35ca65d",
+      "timestamp": "2026-10-23T16:50:11.551Z"
+    },
+    {
+      "actor_type": "telephony",
+      "actor_id": "sid_1792774202893_305",
+      "action": "CALL_SESSION_STARTED",
+      "resource": "call_sessions/call-feb45899",
+      "details": {
+        "caller": "+998 777775656",
+        "dialed": "+998 71 200 11 22"
+      },
+      "id": "audit-c340f64a",
+      "timestamp": "2026-10-23T16:50:02.894Z"
+    }
+  ],
+  "idempotency_keys": {}
+}

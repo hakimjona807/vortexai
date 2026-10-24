@@ -1,0 +1,6 @@
+{
+  "name": "VORTEX AI — Ovozli Dori Buyurtmalari Yordamchisi",
+  "description": "Dorixona buyurtmalarini telefon qo‘ng‘iroqlari orqali qabul qiluvchi o‘zbek tilidagi ovozli sun’iy intellekt backend tizimi va telephony sinov konsoli.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
